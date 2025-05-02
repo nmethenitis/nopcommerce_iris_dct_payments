@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "Iris DCT Online Payments",
+  "SystemName": "Payments.IrisDCT",
+  "Version": "4.80.3",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Nikos Methenitis - nmethenitis@gmail.com",
+  "DisplayOrder": -1,
+  "FileName": "Nop.Plugin.Payments.IrisDCT.dll",
+  "Description": "Iris DCT Online Payments nopcommerce plugin."
+}
