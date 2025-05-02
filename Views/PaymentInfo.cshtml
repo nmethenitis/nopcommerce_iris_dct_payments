@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "";
+}
+@model IrisDCTInfoModel
+
+@if (!String.IsNullOrEmpty(Model.DescriptionText)){
+    <div class="method-description">@Html.Raw(Model.DescriptionText)</div>
+}else{
+    <div class="method-description">@T($"Plugins.Payments.IrisDCT.Payment.Info.Description")</div>
+}
